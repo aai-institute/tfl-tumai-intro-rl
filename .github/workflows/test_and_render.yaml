@@ -1,0 +1,14 @@
+on:
+  push:
+    branches:
+      - solutions
+  pull_request:
+    branches:
+      - solutions
+
+jobs:
+  test_and_render:
+    runs-on: ubuntu-latest
+    container:
+      image: europe-west3-docker.pkg.dev/tfl-prod-ea3b/tfl-docker/tumai-intro-rl:latest
+      options: --user root

@@ -1,1 +1,10 @@
 numpy
+pyglet
+torch
+tensorboard
+jupyter
+IPython
+gymnasium
+pyvirtualdisplay==0.2.*
+PyOpenGL==3.1.*
+PyOpenGL-accelerate==3.1.*
